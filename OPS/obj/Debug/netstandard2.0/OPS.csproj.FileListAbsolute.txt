@@ -1,0 +1,8 @@
+E:\C#-workspace\Calculator\OPS\bin\Debug\netstandard2.0\OPS.deps.json
+E:\C#-workspace\Calculator\OPS\bin\Debug\netstandard2.0\OPS.dll
+E:\C#-workspace\Calculator\OPS\bin\Debug\netstandard2.0\OPS.pdb
+E:\C#-workspace\Calculator\OPS\obj\Debug\netstandard2.0\OPS.csprojAssemblyReference.cache
+E:\C#-workspace\Calculator\OPS\obj\Debug\netstandard2.0\OPS.AssemblyInfoInputs.cache
+E:\C#-workspace\Calculator\OPS\obj\Debug\netstandard2.0\OPS.AssemblyInfo.cs
+E:\C#-workspace\Calculator\OPS\obj\Debug\netstandard2.0\OPS.dll
+E:\C#-workspace\Calculator\OPS\obj\Debug\netstandard2.0\OPS.pdb

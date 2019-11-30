@@ -1,0 +1,13 @@
+E:\C#-workspace\Calculator\Calculator\bin\Debug\Calculator.exe.config
+E:\C#-workspace\Calculator\Calculator\bin\Debug\Calculator.exe
+E:\C#-workspace\Calculator\Calculator\bin\Debug\Calculator.pdb
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.exe
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.pdb
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.BasicForm.resources
+E:\C#-workspace\Calculator\Calculator\bin\Debug\OPS.dll
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.UI.ExtendForm.resources
+E:\C#-workspace\Calculator\Calculator\obj\Debug\Calculator.UI.SysConvertForm.resources

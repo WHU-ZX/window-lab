@@ -1,0 +1,11 @@
+E:\C#-workspace\Calculator\Test\bin\Debug\netcoreapp3.0\Test.exe
+E:\C#-workspace\Calculator\Test\bin\Debug\netcoreapp3.0\Test.deps.json
+E:\C#-workspace\Calculator\Test\bin\Debug\netcoreapp3.0\Test.runtimeconfig.json
+E:\C#-workspace\Calculator\Test\bin\Debug\netcoreapp3.0\Test.runtimeconfig.dev.json
+E:\C#-workspace\Calculator\Test\bin\Debug\netcoreapp3.0\Test.dll
+E:\C#-workspace\Calculator\Test\bin\Debug\netcoreapp3.0\Test.pdb
+E:\C#-workspace\Calculator\Test\obj\Debug\netcoreapp3.0\Test.csprojAssemblyReference.cache
+E:\C#-workspace\Calculator\Test\obj\Debug\netcoreapp3.0\Test.AssemblyInfoInputs.cache
+E:\C#-workspace\Calculator\Test\obj\Debug\netcoreapp3.0\Test.AssemblyInfo.cs
+E:\C#-workspace\Calculator\Test\obj\Debug\netcoreapp3.0\Test.dll
+E:\C#-workspace\Calculator\Test\obj\Debug\netcoreapp3.0\Test.pdb
