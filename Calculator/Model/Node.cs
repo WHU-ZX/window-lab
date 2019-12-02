@@ -121,7 +121,9 @@ namespace Calculator.Model
                     String FString = ExtendForm.FStr;
                     String RValStr = right.value.ToString();
                     RValStr = "(" + RValStr + ")";
-                    String newString = FString.Replace("x", RValStr);
+                    String newString = FString.Replace("exp", "MMM");
+                    newString = newString.Replace("x", RValStr);
+                    newString = newString.Replace("MMM", "exp");
                     newString = newString.Replace(" ", "");
                     newString = newString.Replace("\t", "");
                     newString = "(" + newString + ")";
@@ -130,7 +132,6 @@ namespace Calculator.Model
                     try
                     {
                         lexer.Lex();
-                        lexer.showList();
                         analyser = new Analyser.Analyser(lexer.getList());
                         analyser.analyse();
                         Calculator.Excutor.Excutor excutor = new Calculator.Excutor.Excutor(analyser.getRootNode());

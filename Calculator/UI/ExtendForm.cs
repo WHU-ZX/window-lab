@@ -174,7 +174,6 @@ namespace Calculator.UI
             try
             {
                 lexer.Lex();
-                //lexer.showList();
                 analyser = new Analyser.Analyser(lexer.getList());
                 analyser.analyse();
                 Calculator.Excutor.Excutor excutor = new Calculator.Excutor.Excutor(analyser.getRootNode());
@@ -185,8 +184,7 @@ namespace Calculator.UI
             {
                 MessageBox.Show("输入不合规范!", "警告");
             }
-
-}
+        }
 
         private void delAllBtn_Click(object sender, EventArgs e)
         {
