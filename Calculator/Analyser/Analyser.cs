@@ -84,17 +84,29 @@ namespace Calculator.Analyser
                         {
                             if (item.GetValue() == "-" && i < list.Count - 1 && ((Item)list[i+1]).GetValue() == "(")
                             {
-                                newNode = new Node(0);
+                                newNode = new Node(-1);
                                 stack.Add(newNode);
                                 stackTop++;
-                                Operator op = new Operator(item.GetValue());
+                                Operator op = new Operator("×");
                                 stack.Add(op);
                                 stackTop++;
-                                levelStack.Add(0);
+                                levelStack.Add(1);
                                 i++;
                                 Node node = analysePart(ref i);
                                 stack.Add(node);
                                 stackTop++;
+                                break;
+                            }
+                            else if(item.GetValue() == "-" && i < list.Count - 1 && ((Item)list[i + 1]).GetToken() == Token.FUNC)
+                            {
+                                newNode = new Node(-1);
+                                stack.Add(newNode);
+                                stackTop++;
+                                Operator op = new Operator("×");
+                                stack.Add(op);
+                                stackTop++;
+                                levelStack.Add(1);
+                                i++;
                                 break;
                             }
                             else
@@ -214,12 +226,6 @@ namespace Calculator.Analyser
                                     {
                                         stack.Add(node);
                                         stackTop++;
-                                        //Object objNode = stack[stackTop - 1];
-                                        //stack.RemoveAt(stackTop);
-                                        //stackTop--;
-                                        //stack.RemoveAt(stackTop);
-                                        //stackTop--;
-                                        //newNode = new Node((Node)objNode, node, (Operator)obj);
                                     }
                                     else
                                     {
